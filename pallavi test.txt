@@ -1,0 +1,100 @@
+1)method overloading is known as class name is same but diffrent parameter is known as method overloading.
+  
+ex- class Person{
+
+   static void eat();
+  System.out.println("Running main in Person");
+
+} 
+
+
+Class PersonKiller{
+Public static void main(String[] args){
+
+System.out.println("Running main in PersonKiller");
+
+Person.eat();
+System.out.println("Running main in eat");
+}
+}
+
+2) kinds of variables - 
+1.static
+2.default
+3.instant
+ 
+
+ex- Class Icecream{
+public static void main(String[] args){
+
+System.out.println("Running main in Icecream");
+int price=25;
+String brand="Diaryday";
+System.out.println("Price of Icecream is:"+price);
+System.out.println("Brand od Icecream is:"+Brand);
+
+}
+}
+
+4)program -
+
+Class Police{
+
+String name;
+String Position;
+
+Police();
+
+System.out.println("invkoing main in Police");
+
+}
+
+
+Class PoliceKiller{
+
+public static void main(String[] args){
+Police();
+System.out.println("Name:"+name);
+System.out.println("Position:"+position);
+
+}
+Police(String name,String Position);
+System.out.println("Name:+pallavi");
+System.out.println("Position:+si);
+}
+
+}
+
+7)Class Police{
+String Name;
+String Position;
+Police();
+System.out.println("invkoing main in Police");
+}
+
+Class PoliceKiller{
+public static void main(String[] args);
+
+System.out.println("invkoing main in Police");
+Police police=new police();
+System.out.println("Name:"+name);
+Name name = new Name();
+}
+}
+
+5) Class Jacket{
+
+static void wear();
+System.out.println("invoking main in Jacket");
+}
+
+Class JacketKiller{
+public static void main(String[] args){
+Static void wear(int Price,String Brand);
+ int Price= 1500;
+String brand= puma;
+System.out.println("price:"+price);
+System.out.println("brand:"+price);
+}
+
+}
